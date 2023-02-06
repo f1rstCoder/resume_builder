@@ -1,0 +1,90 @@
+.textCol {
+  color: rgb(51, 143, 222);
+}
+
+.bgCol {
+  background-color: rgb(12, 29, 55);
+  align-items: stretch;
+
+}
+
+.resumeContainer {
+  width: 210mm;
+  height: 290mm;
+  font-size: 12px;
+
+}
+
+.image {
+  border-radius: 10%;
+  margin: 2;
+  align-self: center;
+}
+
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+  pointer-events: none;
+  display: block;
+  /* For Firefox */
+}
+
+p {
+  margin: 0 0;
+}
+
+h1 {
+  color: #1976D2;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 0;
+}
+
+h2 {
+  color: #1976D2;
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #403f42;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 40px;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+a {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 10px 10px 10px;
+}
+
+textarea {
+  display: none;
+}
+
+*[contentEditable="true"]:focus,
+*[contentEditable="true"]:hover {
+  outline: 2px solid #1976D2;
+}
